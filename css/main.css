@@ -1,11 +1,6 @@
-wrapper,wrapper1,wrapper2,wrapper3{
-	margin:0;
-	width:1000px;
-	padding:20px;
-}
-p{
-	margin:0;
-}
+
+
+
 
 body{
 	background-color:#d6d7d8;
@@ -17,20 +12,26 @@ body{
 }
 h1{
 background-color:#a3a3a5;
-border:5px solid black;
+border:1px solid black;
 color:white;
 width:300px;
-border-radius:5px;
+border-radius:2px;
 text-align:justify;
-padding:5px;
+padding:2px;
 text-indent:30px;
+-moz-box-shadow:5px 5px 5px black;
+	-webkit-box-shadow:5px 5px 5px black;
+	-ms-box-shadow:5px 5px 5px black;
+	-o-box-shadow:5px 5px 5px black;
+	-khtml-box-shadow:5px 5px 5px black;
+	box-shadow:5px 5px 5px black;
 }
 
 img{
 		
-	border:5px solid black;
-	border-radius:10px;
-	padding:20px;
+	border:2px solid black;
+	border-radius:2px;
+	padding:1px;
 	-moz-box-shadow:5px 5px 5px black;
 	-webkit-box-shadow:5px 5px 5px black;
 	-ms-box-shadow:5px 5px 5px black;
@@ -41,8 +42,8 @@ img{
 	}
 .demo{
 	background-color:#7d7d7d;
-	border:3px solid black;
-	border-radius:5px;
+	border:1px solid black;
+	border-radius:2px;
 	-moz-box-shadow:5px 5px 5px black;
 	-webkit-box-shadow:5px 5px 5px black;
 	-ms-box-shadow:5px 5px 5px black;
@@ -55,8 +56,8 @@ img{
 	}
 .demo1{
 	background-color:#7d7d7d;
-	border:3px solid black;
-	border-radius:5px;
+	border:1px solid black;
+	border-radius:2px;
 	width:275px;
 	-moz-box-shadow:5px 5px 5px black;
 	-webkit-box-shadow:5px 5px 5px black;
@@ -71,8 +72,8 @@ img{
 }
 .demo2{
 	background-color:#7d7d7d;
-	border:3px solid black;
-	border-radius:5px;
+	border:1px solid black;
+	border-radius:2px;
 	width:275px;
 	-moz-box-shadow:5px 5px 5px black;
 	-webkit-box-shadow:5px 5px 5px black;
@@ -92,52 +93,9 @@ ul{
 }
 
 
-#wrapper{
-text-indent: 30px;
-text-align: justify;
-width:1000px;
-background-color:#7d7d7d;
-border:2px solid black;
-padding:5px;
-margin:10px;
-
-
-}
-#wrapper1{
-text-indent: 30px;
-text-align: justify;
-width:1000px;
-background-color:#7d7d7d;
-border:2px solid black;
-padding:5px;
-margin:10px;
-
-
-}
-#wrapper2{
-text-indent: 30px;
-text-align: justify;
-width:1000px;
-background-color:#7d7d7d;
-border:2px solid black;
-padding:5px;
-margin:10px;
 
 
 
-}
-#wrapper3{
-text-indent: 30px;
-text-align: justify;
-width:1000px;
-background-color:#7d7d7d;
-border:2px solid black;
-padding:5px;
-margin:10px;
-
-
-
-}
 
 
 
