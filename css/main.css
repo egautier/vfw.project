@@ -1,4 +1,145 @@
-body{
-	color:red;
+/"Color Swatch----------------------------------
+light-gray 		b0b1b1
+medium-gray		686869
+light-blue		0490fc
+opaque-blue		035594
+marine-blue		03243e
+mid-gray-blue	2f4c62
+yellow			feef01
+white			fefefd
+light 2 gray	d4d4d4
+------------------------------------------------"/
+
+
+h1,h3,h4{
+text-shadow:2px 2px 2px #b0b1b1;
+font-family:"Felipa",cursive,arial,san-serif;
+}	
+.top{
+	background-color:#03243e;
+	padding:2px;
+	margin:5px;
 }
+a:link{
+	color:#035594;
+}
+a:visited{
+	color:#0490fc;
+}
+a:hover{
+	color:#fefefd;
+}
+a:active{
+	color:#03243e;
+}
+
+body{
+	width:1000px;
+	background-image: url("../images/Gradient-Gray.jpg");
+	margin:0 auto;
+}
+.demo_a{
+	width:485px;
+	border:2px solid #03243e;
+	background-color:#0490fc;
+	border-radius:2px;
+	-moz-box-shadow:3px 3px 3px #03243e;
+	padding:5px;
+	margin:0;
+	float:right;
+	font-family:"Judson",san-serif;
+
+}
+
+.demo_b{
+	width:500px;
+	border:2px solid #03243e;
+	background-color:#0490fc;
+	border-radius:2px;
+	-moz-box-shadow:3px 3px 3px #03243e;
+	padding:5px;
+	font-family:"Judson",san-serif;
+
+
+	}
+.demo_c{
+	width:300px;
+	border:2px solid #03243e;
+	background-color:#0490fc;
+	border-radius:2px;
+	-moz-box-shadow:3px 3px 3px #03243e;
+	padding:5px;
+	font-family:"Judson",san-serif;
+
+
+}
+
+.job{
+	width:175px;
+	border:2px solid #03243e;
+	margin:3px;
+}
+.paisaje{
+	width:175px;
+	border:2px solid #03243e;
+	margin:3px;
+}
+.panderos{
+	width:175px;
+	border:2px solid #03243e;
+	margin:3px;
+}
+.papi{
+	width:175px;
+	border:2px solid #03243e;
+	margin:3px;
+}
+.elias{
+	width:175px;
+	border:2px solid #03243e;
+	margin:3px;
 	
+}
+.brothers{
+	border:2px solid #03243e;
+}
+
+ul{
+	width:500px;
+	margin:10px auto
+	background:#03243e;
+	padding:1px;
+}
+li{
+	width:100px;
+	background:#686869;
+	list-style-type:none;
+	clear:left;
+	display:inline;
+}
+"/
+.button {
+	background-color:#b0b1b1;
+	width:100px;
+	border:2px solid #686869;
+	display:inline;
+	list-style-type:none;
+	cursor:pointer;
+	text-align:center;
+	font-family:"Gorditas",cursive,san-serif;
+	font-size;10px;
+	margin:0
+	padding:5em;
+	text-shadow:0 2px 2px rgba(4,144,254,0.5);
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.button:hover{
+	text-decoration:none;
+}
+.button:active{
+	position:relative;
+	top:1px;
+}
+"/
+
