@@ -1,25 +1,45 @@
 body{
-	max-width:1000px;
-	background-image:url("../images/Gradient-Gray.jpg");
+	/"background-image:url("../images/Gradient-Gray.jpg");"/
 	background-color:#e7e8e9;
 	background-repeat:repeat-x;
+	background-image:url("../images/Gradient-Gray.jpg");
+	max-width:1000px;
 	margin:0 auto;
-	font:100%/1.5;
+	font-size:100%;
+	line-height:/1.5;
 }
+
+
+
+
+
 
 h1{
 	color:#d4d4d4;
-	font-family:"Italiana",cursive,san-seriff;
-	font-size:1.5em;/"24px/1000px"/
+	font:bold 150% "Italiana",cursive,san-seriff;
+	/"24px/16px"/
 }
+
+
+
+
+
 h3{
-	font-family:"Italiana",cursive,san-seriff;
-	font-size:1.25em;/"20px/1000px"/
+	font:125% "Italiana",cursive,san-seriff;
+	/"20px/16px"/
 }
+
+
+
+
 h4{
-	font-family:"Italiana",cursive,san-seriff;
-	font-size:1.125em;/"18px/1000px"/
+	font:bold 100% "Italiana",cursive,san-seriff;
+	/"18px/16px"/
 }
+
+
+
+
 
 
 .top{
@@ -27,6 +47,11 @@ h4{
 	padding:2px;
 	margin:5px;
 }
+
+
+
+
+
 .demo_a{
 	width:47.5%;/"475px/1000px"/
 	border:2px solid #03243e;
@@ -36,9 +61,15 @@ h4{
 	padding:5px;
 	margin:5px 10px 10px 0;
 	float:left;
-	font-family:"Judson",serif;
-	font-size:1em;/"16px"/
+	font:100% "Judson",serif;
+	/"16px"/
 }
+
+
+
+
+
+
 .demo_b{
 	width:47.5%;/"475px/1000px"/
 	border:2px solid #03243e;
@@ -48,74 +79,137 @@ h4{
 	padding:5px;
 	margin:5px 10px 10px 0;
 	float:right;
-	font-family:"Judson",serif;
-	font-size:1em;/"16px"/
+	font:100% "Judson",serif;
+	/"16px"/
 
-	}
+}
+
+
+
+
+
+
+
 
 div{
 	-moz-column-count:3;
+	-webkit-column-count:3;
+	-ms-column-count:3;
+	-o-column-count:3;
+	-khtml-column-count:3;
 	-moz-column-gap:0.9375em;/"15px"/
+	-webkit-column-gap:0.9375em;/"15px"/
+	-ms-column-gap:0.9375em;/"15px"/
+	-o-column-gap:0.9375em;/"15px"/
+	-khtml-column-gap:0.9375em;/"15px"/
 	width:80%;/"800px/1000px"/
 	border:2px solid #03243e;
 	background-color:#0490fc;
 	border-radius:2px;
 	box-shadow:3px 3px 3px #03243e;
 	padding:5px;
-	font-family:"Judson",serif;
-	font-size:1em;/"16px"/
+	font:100% "Judson",serif;
+	/"16px"/
 
 }
+
+
+
+
+
+
 
 .job{
 	width:175px;
 	border:2px solid #03243e;
 	margin:3px;
 }
+
+
+
 .paisaje{
 	width:175px;
 	border:2px solid #03243e;
 	margin:3px;
 }
+
+
+
+
 .panderos{
 	width:175px;
 	border:2px solid #03243e;
 	margin:3px;
 }
+
+
+
+
 .papi{
 	width:175px;
 	border:2px solid #03243e;
 	margin:3px;
 }
+
+
+
+
 .elias{
 	width:175px;
 	border:2px solid #03243e;
 	margin:3px;
 	
 }
+
+
+
+
+
 .brothers{
 	border:2px solid #03243e;
 	max-width:100%;
 }
+
+
+
+
+
 .button{
-	width:100px;
+	width:300%;
 	background:#747576;
 	list-style-type:none;
 	clear:left;
 	display:inline;
 	border:2px solid #d4d4d4;
 	border-radius:4px;
-	font-family:"Gorditas",cursive,san-serif;
+	-moz-border-radius:4px;
+	-ms-border-radius:4px;
+	-webkit-border-radius:4px;
+	-o-border-radius:4px;
+	-khtml-border-radius:4px;
+	font:100%"Gorditas",cursive,san-serif;
 	text-shadow:0 2px 2px rgba(4,144,254,0.5);
-	margin:2px;
+	margin:0.5%;
 	text-align:center;
 	cursor:pointer;
 }
+
+
+
+
+
+
 a{
 	text-decoration:none;
 	height:10px;
 	line-height:10px
 }
+
+
+
+
+
+
 
 ul{
 	width:50%;/"500px/1000px"/
@@ -124,25 +218,48 @@ ul{
 	overflow:hidden;
 	
 }
+
+
+
+
+
+
 ol{
 	width:50%;/"500px/1000px"/
 	background:#03243e;
 	padding:0 3.0% 3.0%;/"15px/500px"/
 	overflow:hidden;
 }
+
+
+
 a:link{
 	color:#035594;
 }
+
+
+
 a:visited{
 	color:#0490fc;
 }
+
+
+
 a:hover{
 	color:#fefefd;
 	background:#feef01;
 }
+
+
+
 a:active{
 	color:#03243e;
 }
+
+
+
+
+
 
 /" =Media Queries
 ==================================================================="/
@@ -152,6 +269,11 @@ a:active{
 		background-image:url("../images/Gradient_wine.jpg");
 		}	
 }
+
+
+
+
+
 	/"Mobile Landscape size to Tablet Portrait(devices and browsers)"/
 	@media only screen and(min-width:400px)and(max-width:999px){
 	body{
@@ -159,6 +281,11 @@ a:active{
 	}
 	
 }
+
+
+
+
+
 	/"Mobile Portrait size to Mobile Landscape size(devices and browsers)"/
 	@media only screen and(max-width:399px){
 	body{
