@@ -1,8 +1,7 @@
 body{
-	/"background-image:url("../images/Gradient-Gray.jpg");"/
+	background-image:url("../images/gradient_gray.jpg");
 	background-color:#e7e8e9;
 	background-repeat:repeat-x;
-	background-image:url("../images/Gradient-Gray.jpg");
 	max-width:1000px;
 	margin:0 auto;
 	font-size:100%;
@@ -57,9 +56,19 @@ h4{
 	border:2px solid #03243e;
 	background-color:#0490fc;
 	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-ms-border-radius:2px;
+	-o-border-radius:2px;
+	-khtml-border-radius:2px;
 	box-shadow:3px 3px 3px #03243e;
+	-moz-box-shadow:3px 3px 3px #03243e;
+	-webkit-box-shadow:3px 3px 3px #03243e;
+	-ms-box-shadow:3px 3px 3px #03243e;
+	-o-box-shadow:3px 3px 3px #03243e;
+	-khtml-box-shadow:3px 3px 3px #03243e;
 	padding:5px;
-	margin:5px 10px 10px 0;
+	margin:5px 0 10px 10px;
 	float:left;
 	font:100% "Judson",serif;
 	/"16px"/
@@ -106,8 +115,13 @@ div{
 	border:2px solid #03243e;
 	background-color:#0490fc;
 	border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	-webkit-border-radius:2px;
+	-o-border-radius:2px;
+	-khtml-border-radius:2px;
 	box-shadow:3px 3px 3px #03243e;
-	padding:5px;
+	padding:0.5%;
 	font:100% "Judson",serif;
 	/"16px"/
 
@@ -117,47 +131,46 @@ div{
 
 
 
-
-
 .job{
-	width:175px;
+	max-width:17.5%;
 	border:2px solid #03243e;
-	margin:3px;
+	margin:0.5%;
+	/"175px/1000px"/
 }
 
 
 
 .paisaje{
-	width:175px;
+	max-width:17.5%;
 	border:2px solid #03243e;
-	margin:3px;
+	margin:0.5%;
 }
 
 
 
 
 .panderos{
-	width:175px;
+	max-width:17.5%;
 	border:2px solid #03243e;
-	margin:3px;
+	margin:0.5%;
 }
 
 
 
 
 .papi{
-	width:175px;
+	max-width:17.5%;
 	border:2px solid #03243e;
-	margin:3px;
+	margin:0.5%;
 }
 
 
 
 
 .elias{
-	width:175px;
+	max-width:17.5%;
 	border:2px solid #03243e;
-	margin:3px;
+	margin:0.5%;
 	
 }
 
@@ -168,6 +181,7 @@ div{
 .brothers{
 	border:2px solid #03243e;
 	max-width:100%;
+	margin:0.1%;
 }
 
 
@@ -202,7 +216,7 @@ div{
 a{
 	text-decoration:none;
 	height:10px;
-	line-height:10px
+	line-height:10px;
 }
 
 
@@ -257,41 +271,51 @@ a:active{
 }
 
 
-
-
-
-
-/" =Media Queries
-==================================================================="/
-	/"Tablet Portrait size to standard 1490 (devices and browsers)"/
-	@media screen and(min-width:1000px)and(max-width 1489px){
-		body{
-		background-image:url("../images/Gradient_wine.jpg");
-		}	
+table{
+	background-color:#0490fc;
+	border-collapse:collapse;
+	border:2px solid #03243e;
+	box-shadow:3px 3px 3px #03243e;
 }
 
+td{
+	border:2px solid #03243e;
+	padding:0.1%;
+	text-align:center;
+}
+
+th{
+	text-align:left;
+	background-color:#03243e;
+	color:white;
+	padding:0.5%;
+}
+
+
+
+
+
+	/" Tablet Portrait size to standard 1000(devices and browsers) "/
+	@media screen and(min-width:768px)and(max-width 999px){
+		body{ background-image:url("../images/gradient_wine.jpg");}	
+}
 
 
 
 
 	/"Mobile Landscape size to Tablet Portrait(devices and browsers)"/
-	@media only screen and(min-width:400px)and(max-width:999px){
-	body{
-	background-image:url("../images/Gradient-orange.jpg");
-	}
+	@media only screen and(min-width:400px)and(max-width:767px){
+body{background-image:url("../images/gradient-orange.jpg");}
 	
 }
-
 
 
 
 
 	/"Mobile Portrait size to Mobile Landscape size(devices and browsers)"/
 	@media only screen and(max-width:399px){
-	body{
-	background-image:url("../images/Gradient-lightblue.jpg");
+	body{background-image:url("../images/gradient-lightblue.jpg");}
 	section{float:none;}
 	.brothers{display:none}
-	}
-	
 }
+	

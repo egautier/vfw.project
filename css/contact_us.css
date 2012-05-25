@@ -1,0 +1,41 @@
+body{
+	background-image:url("../images/Gradient-Gray.jpg");
+	background-color:#e7e8e9;
+	background-repeat:repeat-x;
+	max-width:1000px;
+	margin:0 auto;
+	font-size:100%;
+}
+
+h1{
+	Background-color:#03243e;
+	width:30.5%;
+	color:#d4d4d4;
+	text-align:center;
+	margin:0.5%;
+	border:2px solid #d4d4d4;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-webkit-border-radius:3px;
+	-o-border-radius:3px;
+	-khtml-border-radius:3px;
+}
+
+.personal{
+	background-color:#03243e;
+	width:30%;
+	margin:0.5%;
+	color:#d4d4d4;
+	padding:0.2%;
+	border:2px solid #d4d4d4;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-webkit-border-radius:3px;
+	-o-border-radius:3px;
+	-khtml-border-radius:3px;
+	
+}
+
+	

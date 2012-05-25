@@ -1,0 +1,31 @@
+body{
+	background-image:url("../images/Gradient-Gray.jpg");
+	background-color:#e7e8e9;
+	background-repeat:repeat-x;
+	max-width:1000px;
+	margin:0 auto;
+	font-size:100%;
+}
+
+
+h1{
+	background-color:#03243e;
+	color:#d4d4d4;
+	width:40%;
+	padding:0 0 0 22%;
+	margin:5% 0 3% 0.2%;
+}
+
+
+.airport{
+	border:2px solid #03243e;
+}
+
+
+.glasses{
+	border:2px solid #03243e;
+}
+
+.my_sisters{
+	border:2px solid #03243e;
+}
