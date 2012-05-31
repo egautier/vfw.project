@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+	<link rel="stylesheet" href="css/join_us.css">
+	<title>Gautier Creations</title>
+<body>
+		<h1>Join Us</h1>
+		
+		<form method="post" action="forms.html">
+		
+			<div class="personal">
+				<label for="name_first">First Name:</label>
+				<input type="text" name="name_first" id="name_first"/>
+			</div>
+			
+			<div class="personal">
+				<label for="name_last">Last Name:</label>
+				<input type="text" name="name_last" id="name_last"/>
+			</div>
+			
+			<div class="personal">
+				<label for="email">Email:</label>
+				<input type="text" name="email" id="email"/>
+			</div>
+			
+			<div class="personal">
+				<label for="password">Password:</label>
+				<input type="text" name="password" id="password"/>
+			</div>
+			
+			<div class="personal">
+				<label for="password_enter_re">Re-enter Password:</label>
+				<input type="text" name="password_enter_re" id="password_enter_re"/>
+			</div>
+			
+			
+			
+		<h3 class="add">Address</h3>
+		
+			<div class="address">
+				<label for="street">Street:</label>
+				<input type="text" name="street" id="street"/>
+			</div>
+			
+			<div class="address">
+				<label for="city">City:</label>
+				<input type="text" name="city" id="city"/>
+			</div>
+			
+			<div class="address">
+				<label for="state">State:</label>
+				<input type="text" name="state" id="state"/>
+			</div>
+			
+			<div class="address">
+				<label for="code_zip">Zip Code:</label>
+				<input type="text" name="code_zip" id="code_zip"/>
+			</div>
+			
+		<h3>Tell us about you</h3>
+		
+			<div>
+				<label>Favorite Medium</label>
+				<select name="medium" id="medium">
+					<option>Acrylic</option>
+					<option>Watercolor</option>
+					<option>Oils</option>
+					<option>Pastel</option>
+					<option>Printing</option>
+					<option>Sculpture</option>
+					<option>Photography</option>
+					<option>Graphics</option>
+				</select>
+		</div>
+			<h3>What would you offer to the art world around you.</h3>
+		<div>
+				<label for="idea">Idea</label>
+				<textarea rows="20" cols="60" name="idea" id="idea"></textarea>
+		</div>
+		
+		<div class="end">
+			<p>I have read and agree the terms of use.</p>
+			<label for="terms_of_use_accept">Accept terms of use</label>
+			<input type="checkbox" name="terms_of_use_accept" id="terms_of_use_accept"/>
+		</div>
+			<input type="submit"/>
+	</form>
+			
+	<footer>
+		<h4>All Rights Reserved &copy; 2012.</h4>
+	</footer>	
+				
+	</body>	
+</html>
