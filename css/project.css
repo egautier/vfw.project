@@ -1,9 +1,9 @@
 body{
-	background-image:url("../images/gradient_blue.jpg");
+	background-color:#000;
 	max-width:75%;
 	margin:0 auto;
 }
-"/*----------------nav---------------*/"
+
 
 h1{
 	margin:5% 0 0 45%;
@@ -28,7 +28,7 @@ nav{
 }
 
 .tap{
-	width:20%;
+	width:18%;
 	border:2px solid #000;
 	float:left;
 	text-align:center;
@@ -85,4 +85,37 @@ div{
 	text-indent:3%;
 	-moz-column-count:5;
 	-moz-column-gap:20%;	
+}
+
+aside{
+	color:#011bb4;
+	text-shadow:0.5px 0.5px 0.5px #000;
+	background-image:url("../images/clouds.jpg");
+	-moz-column-count:4;
+}
+
+footer{
+	max-width:100%;
+	background-image:url("../images/bottom_earth.jpg");
+	background-repeat:no-repeat;	
+}
+
+h5{
+	color:#f6e1b0;
+}
+
+ol li{
+	width:25%;
+}
+	
+ul li{
+	width:10%;
+	margin:10% 5% 0 5%;
+	list-style-type:none;
+	display:inline;
+}
+
+li:hover{
+	color:#8bf8fc;
+	background-color:#003906;
 }
