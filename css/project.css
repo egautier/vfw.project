@@ -1,0 +1,88 @@
+body{
+	background-image:url("../images/gradient_blue.jpg");
+	max-width:75%;
+	margin:0 auto;
+}
+"/*----------------nav---------------*/"
+
+h1{
+	margin:5% 0 0 45%;
+}
+
+nav{
+	width:100%;
+	background-color:#000;
+	border:2px solid #000;
+}
+
+.world{
+	max-width:100%;
+	margin:0.5% 0 0 44%;
+}
+
+.top{
+	width:80%;
+	margin:0 0 10% 15%;
+	list-style-type:none;
+	padding:0;
+}
+
+.tap{
+	width:20%;
+	border:2px solid #000;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	margin:0.1% 0.2%;
+	padding:0.2%;
+	color:#f6e1b0;	
+}
+
+.tap:hover{
+	background-color:#003906;
+}
+
+h4{
+	margin:0;
+}
+
+
+a:link{
+	color:#f6e1b0;
+}
+
+a:visited{
+	color:#011bb4;
+}
+
+a:hover{
+	color:#8bf8fc;
+	
+}
+
+a:active{
+	color:#03fe1b;
+}
+
+
+.earth{
+	max-width:100%;
+	border:2px solid #242f73;
+	margin:0 0 5% 30%;
+}
+
+div{
+	width:75%;
+	background-color:#03f3fc;
+	border:2px solid #242f73;
+	border-radius:5px;
+	margin:0 0 0 10%;
+	padding:0.5%;
+	-moz-box-shadow:2px 2px 2px #000;
+	-webkit-box-shadow:2px 2px 2px #000;
+	box-shadow:2px 2px 2px #000;
+	text-indent:3%;
+	-moz-column-count:5;
+	-moz-column-gap:20%;	
+}
