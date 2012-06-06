@@ -91,6 +91,7 @@ aside{
 	color:#011bb4;
 	text-shadow:0.5px 0.5px 0.5px #000;
 	background-image:url("../images/clouds.jpg");
+	background-repeat:no-repeat;
 	-moz-column-count:4;
 }
 
