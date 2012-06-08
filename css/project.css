@@ -124,6 +124,10 @@ div{
 
 aside{
 	-moz-column-count:4;
+	-webkit-column-count:4;
+	-ms-column-count:4;
+	-o-column-count:4;
+	-khtml-column-count:4;
 	font-family:"comfortaa", cursive, san-serif;
 }
 
