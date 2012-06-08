@@ -1,23 +1,40 @@
 body{
+	background-image:url("../images/gradient_black.jpg");
 	background-color:#000;
+	background-repeat:repeat-x;
 	max-width:75%;
 	margin:0 auto;
 }
 
 
 h1{
-	margin:5% 0 0 45%;
+	font-family:"merriweather", san-serif;
+	margin:5% 0 0 41.5%;
+}
+
+h2{
+	font-family:"merriweather", san-serif;
+	margin:0  0 5% 12%;
+}
+
+h3{
+	font-family:"merriweather", san-serif;
+}
+
+h4{
+	font-family:"merriweather", san-serif;
+	margin:0;
+}
+
+h5{
+	font-family:"merriweather", san-serif;
+	color:#f6e1b0;
+	text-shadow:1px 1px 1px #000;
 }
 
 nav{
 	width:100%;
-	background-color:#000;
-	border:2px solid #000;
-}
-
-.world{
-	max-width:100%;
-	margin:0.5% 0 0 44%;
+	margin:0 auto;
 }
 
 .top{
@@ -29,6 +46,7 @@ nav{
 
 .tap{
 	width:18%;
+	background-color:#d4d4d4;
 	border:2px solid #000;
 	float:left;
 	text-align:center;
@@ -43,13 +61,8 @@ nav{
 	background-color:#003906;
 }
 
-h4{
-	margin:0;
-}
-
-
 a:link{
-	color:#f6e1b0;
+	color:#000;
 }
 
 a:visited{
@@ -65,16 +78,39 @@ a:active{
 	color:#03fe1b;
 }
 
+.world{
+	border:2px solid #000;
+	max-width:100%;
+	margin:0.5% 0 0 40%;
+}
+
+.clouds{
+	max-width:100%;
+	border:2px solid #000;
+	margin:5% 0 5% 0;
+}
+
+.island{
+	max-width:100%;
+	border:2px solid #000;
+	margin:0 auto;
+	float:right;
+}
 
 .earth{
+	border:2px solid #000;
 	max-width:100%;
-	border:2px solid #242f73;
-	margin:0 0 5% 30%;
+	margin:0 0 5% 23%;
+}
+
+.mountain{
+	max-width:100%;
+	border:2px solid #000;
 }
 
 div{
 	width:75%;
-	background-color:#03f3fc;
+	background-color:#d4d4d4;
 	border:2px solid #242f73;
 	border-radius:5px;
 	margin:0 0 0 10%;
@@ -83,29 +119,28 @@ div{
 	-webkit-box-shadow:2px 2px 2px #000;
 	box-shadow:2px 2px 2px #000;
 	text-indent:3%;
-	-moz-column-count:5;
-	-moz-column-gap:20%;	
+	font-family:"comfortaa", cursive, san-serif;
 }
 
 aside{
-	color:#011bb4;
-	text-shadow:0.5px 0.5px 0.5px #000;
-	background-image:url("../images/clouds.jpg");
-	background-repeat:no-repeat;
 	-moz-column-count:4;
+	font-family:"comfortaa", cursive, san-serif;
 }
 
 footer{
 	max-width:100%;
 	background-image:url("../images/bottom_earth.jpg");
-	background-repeat:no-repeat;	
+	background-repeat:no-repeat;
+	background-size:100%;	
 }
 
-h5{
-	color:#f6e1b0;
-}
 
 ol li{
+	background-color:#d4d4d4;
+	border:2px solid #000;
+	border-radius:2px;
+	list-style-type:none;
+	padding:0.2% 1%;
 	width:25%;
 }
 	
@@ -120,3 +155,11 @@ li:hover{
 	color:#8bf8fc;
 	background-color:#003906;
 }
+
+.uno{
+	color:#f6e1b0;
+	text-shadow:1px 1px 1px #fff;
+	font-family:"comfortaa", cursive, san-serif;
+}
+
+
