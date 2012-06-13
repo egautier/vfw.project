@@ -130,7 +130,19 @@ footer{
 	margin:0 10%;
 	background-image:url("../images/bottom_earth.jpg");
 	background-repeat:no-repeat;
-	background-size:100%;	
+	background-size:100%;
+}
+
+.foot{
+	background-color:#d4d4d4;
+	border:2px solid #d4d4d4;
+	border-radius:5px;
+	text-decoration:none;
+}
+
+.foot:hover{
+	background-color:#003906;
+	border-color:#003906;
 }
 
 
@@ -174,6 +186,7 @@ ul li{
 
 
 .pics{
+	background-color:#03f3fc;
 	float:left;
 	margin:5% 12.5%;
 	padding:1%;
@@ -196,12 +209,32 @@ ul li{
 	border-color:#03fe1b;
 }
 
+/* =Media Queries
+=======================================================================*/
+
+	/*Tablet Portrait size to standard 1330 (devices and browsers)*/
+	@media screen and(min-width:800px)and(max-width:1330px){
+		body{background-color:red;}
+	
+	
+}
+
+	/*Mobile Landscape size to Tablet Portrait(devices and browsers)*/
+	@media only screen and(min-width:500px)and(max-width:799px){
+	body{background-color:red;}
+}
+
+	/*Mobile Portrait size to Mobile Landscape size(devices ands browsers)*/
+	@media only screen and(max-width:499px){
+	
+}
 
 
 
 
 
-/"color Swatch--------------------------------
+
+/*color Swatch--------------------------------
 ultramarine blue
 dark blue #242f73
 light blue #03f3fc
@@ -211,4 +244,4 @@ green #255d2a
 dark green #003906
 black #000000
 cream #f6e1b0
----------------------------------------------------"/
+---------------------------------------------------*/
