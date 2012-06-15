@@ -1,5 +1,6 @@
 body{
-	background-image:url("../images/gradient_black.jpg");
+	max-width:1200px;
+	background-image:url("../images/gradient_blue.jpg");
 	background-color:#000;
 	background-repeat:repeat-x;	
 	margin:0 auto;
@@ -7,16 +8,19 @@ body{
 
 /*-------------headers------------------*/
 h1{
+	font-size:150%;
 	font-family:"merriweather", san-serif;
-	margin:5% 0 0 41.5%;
+	margin:0 41.2%;
 }
 
 h2{
+	font-size:100%;
 	font-family:"merriweather", san-serif;
-	margin:1%  0 1% 12%;
+	margin:1%  0 1% 10%;
 }
 
 h3{
+	font-size:100%;
 	font-family:"merriweather", san-serif;
 }
 
@@ -27,11 +31,13 @@ h3{
 }
 
 h4{
+	font-size:100%;
 	font-family:"merriweather", san-serif;
 	margin:0;
 }
 
 h5{
+	font-size:100%;
 	font-family:"merriweather", san-serif;
 	color:#f6e1b0;
 	text-shadow:1px 1px 1px #000;
@@ -40,13 +46,17 @@ h5{
 /*-------------headers------------------*/
 
 nav{
+	background-color:rgba(246,225,176,0.6);
+	border:2px solid #000;
+	border-radius:2px;
 	width:100%;
-	margin:0 auto;
+	padding:0.2%;
+	overflow:hidden;
 }
 
 .top{
 	width:80%;
-	margin:0 0 10% 15%;
+	margin:0 0 1% 16%;
 	list-style-type:none;
 	padding:0;
 }
@@ -89,13 +99,13 @@ a:active{
 .world{
 	border:2px solid #000;
 	max-width:100%;
-	margin:0.5% 0 0 40%;
+	margin:0 40%;
 }
 
 .earth{
 	border:2px solid #000;
 	max-width:100%;
-	margin:5% 28%;
+	margin:5% 33%;
 }
 
 /*------------------images------------------*/
@@ -112,6 +122,7 @@ div{
 	box-shadow:2px 2px 2px #000;
 	text-indent:3%;
 	font-family:"comfortaa", cursive, san-serif;
+	font-size:100%;
 }
 
 aside{
@@ -123,21 +134,23 @@ aside{
 	-o-column-count:4;
 	-khtml-column-count:4;
 	font-family:"comfortaa", cursive, san-serif;
+	font-size:100%;
 }
 
 footer{
 	width:80%;
-	margin:0 10%;
+	margin:1% 10%;
 	background-image:url("../images/bottom_earth.jpg");
 	background-repeat:no-repeat;
 	background-size:100%;
 }
 
 .foot{
+	margin:2% 5%;
 	background-color:#d4d4d4;
 	border:2px solid #d4d4d4;
 	border-radius:5px;
-	text-decoration:none;
+	
 }
 
 .foot:hover{
@@ -171,8 +184,9 @@ ul li{
 .uno{
 	margin-left:12%;
 	color:#f6e1b0;
-	text-shadow:1px 1px 1px #fff;
+	text-shadow:1px 1px 1px #000;
 	font-family:"comfortaa", cursive, san-serif;
+	font-size:100%;
 }
 
 .gallery{
@@ -212,20 +226,57 @@ ul li{
 /* =Media Queries
 =======================================================================*/
 
-	/*Tablet Portrait size to standard 1330 (devices and browsers)*/
-	@media screen and(min-width:800px)and(max-width:1330px){
-		body{background-color:red;}
+	/*Tablet Portrait size to standard 1200 (devices and browsers)*/
+	@media screen and(min-width:768px)and(max-width:1199px){
+		
+		body{background-color:#03f3fc;
+		}
+		
+		div{
+		background-color:#003906;
+		color:#f6e1b0;
+		}
+		
+		aside{
+			background-color:#003906;
+			color:#f6e1b0;
+		}
 	
 	
 }
 
 	/*Mobile Landscape size to Tablet Portrait(devices and browsers)*/
-	@media only screen and(min-width:500px)and(max-width:799px){
+	@media only screen and(min-width:480px)and(max-width:767px){
 	body{background-color:red;}
+		
+		body{
+			background-image:url("../images/gradient_orange.jpg")
+		}
+		
+		div{
+			background-color:#242f73;
+			color:#f6e1b0;
+		}
+		aside{
+			background-color:#255d2a;
+		}
+		
 }
 
 	/*Mobile Portrait size to Mobile Landscape size(devices ands browsers)*/
-	@media only screen and(max-width:499px){
+	@media only screen and(max-width:479px){
+	
+	body{
+		background-color:#8bf8fc;
+	}
+	
+	.pics{
+		display:none;
+	}
+	
+	.world{
+		display:none;
+	}
 	
 }
 
