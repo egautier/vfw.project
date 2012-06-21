@@ -36,7 +36,7 @@ ul li{
 	/*Tablet Portrait size to standard 1200 (devices and browsers)*/
 	@media screen and (min-width:768px ) and ( max-width:1199px ){
 	
-	body{background-image:url("../images/gradient_wine.jpg");
+	body{background-image:url("../images/gradient_purple.jpg");
 			background-repeat:repeat-x;
 		}
 		
