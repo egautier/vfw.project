@@ -46,6 +46,7 @@ ul li{
 	body{background-image:url("../images/gradient_purple.jpg");
 			background-repeat:repeat-x;
 		}
+
 		
 	.bora{
 		max-width:100%;
@@ -59,7 +60,7 @@ ul li{
 	body{background-color:red;}
 		
 		body{
-			background-image:url("../images/gradient_orange.jpg")
+			background-image:url("../images/gradient_orange.jpg");
 		}
 		
 		.bora{

@@ -253,6 +253,7 @@ td{
 		body{background-image:url("../images/gradient_purple.jpg");
 			background-repeat:repeat-x;
 		}
+
 		
 		div{
 		background-color:#003906;
@@ -293,7 +294,7 @@ td{
 	body{background-color:red;}
 		
 		body{
-			background-image:url("../images/gradient_orange.jpg")
+			background-image:url("../images/gradient_orange.jpg");
 		}
 		
 		div{
