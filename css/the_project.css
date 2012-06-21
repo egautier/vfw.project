@@ -1,0 +1,98 @@
+body{
+	max-width:1200px;
+	background-image:url("../images/gradient_blue.jpg");
+	background-color:#000;
+	background-repeat:repeat-x;	
+	margin:0 auto;
+}
+
+
+div{
+	max-width:80%;
+	background-color:#d4d4d4;
+	box-shadow:2px 2px 2px #000;
+	font-family:"comfortaa", san-serif;
+	padding:0.5%;
+	border:2px solid #000;
+}
+
+a:hover{
+	color:red;
+}
+
+h1{
+	color:#f6e1b0;
+	text-shadow:1px 1px 2px #000;
+}
+
+ul li{
+	margin:0 1%;
+	display:inline;
+	list-style-type:none;
+}
+
+/* =Media Queries
+=======================================================================*/
+
+	/*Tablet Portrait size to standard 1200 (devices and browsers)*/
+	@media screen and (min-width:768px ) and ( max-width:1199px ){
+	
+	body{background-image:url("../images/gradient_wine.jpg");
+			background-repeat:repeat-x;
+		}
+		
+	h1{
+		margin-left:5%;
+	}
+		
+	div{
+		margin-left:5%;
+	}
+	
+	footer{
+		margin-left:5%;
+	}
+		
+}
+
+	/*Mobile Landscape size to Tablet Portrait(devices and browsers)*/
+	@media only screen and (min-width:480px) and (max-width:767px){
+	body{background-color:red;}
+		
+		body{
+			background-image:url("../images/gradient_orange.jpg")
+		}
+		
+		h1{
+		margin-left:5%;
+	}
+		
+	div{
+		margin-left:5%;
+	}
+	
+	footer{
+		margin-left:5%;
+	}
+		
+}
+
+/*Mobile Portrait size to Mobile Landscape size(devices ands browsers)*/
+	@media only screen and (max-width:479px){
+	
+		body{
+			background-image:url("../images/gradient_gray.jpg");
+		}
+	
+		h1{
+		margin-left:10%;
+	}
+		
+	div{
+		margin-left:10%;
+	}
+	
+	footer{
+		margin-left:5%;
+	}
+}
