@@ -1,0 +1,199 @@
+body{
+	max-width:1200px;
+	/*background-image:url("../images/bottom.jpg")*/
+}
+
+/*--------------------------nav-----------------------*/
+
+.top{
+	font-family: 'Trade Winds', cursive;
+	max-width:100%;
+	background:#fcd601;
+	background-image:url("../images/run.png");
+	margin-left:10%;
+	border:2px solid #5e051a;
+	
+}
+
+#top{
+	max-width:35%;
+	padding:0;
+	font-size:300%;
+	color:#fff001;
+	text-align:center;
+	text-shadow:2px 2px 2px #5e051a;
+	margin:0.5% 0 0 32%;
+}
+
+#bolt{
+	width:15%;
+	margin-left:42.5%;
+	margin-top:0;
+	margin-bottom:0;
+	overflow:hidden;
+}
+
+.nav{
+	width:100%;
+	margin:0 auto;
+	list-style-type:none;
+	padding:0;
+	margin-left:8%;
+	overflow:hidden;
+}
+
+.nav li{
+	width:15%;	
+	background:#fff001;
+	border:1px solid #fa9301;
+	padding:0.5%;
+	margin-left:0.5%;	
+	float:left;
+}
+
+#one{
+	text-decoration:none;
+	background:#fcd707;
+	display:block;
+	height:20%;
+	line-height:20px;
+	text-align:center;
+}
+/*	
+.nav li{
+	background-color:#fff001;
+	border:1px solid #fa9301;
+	font-size:100%;
+	display:inline;
+	margin: 0 2% 5% 3%;
+	padding:0.5%;
+}
+*/
+
+/*------------------------------nav--------------------------*/
+
+/*-----------------------------content-------------------------*/
+
+#about{
+	font-family: 'Trade Winds', cursive;
+	margin-left:20%;
+	color:#fff001;
+	text-shadow:2px 2px 2px #5e051a;
+}
+
+.info{
+	font-family: 'Happy Monkey', cursive;
+	background-color:#fff001;
+	-moz-column-count:2;
+	padding:3%;
+	margin:2% 5% 2% 15%;
+	text-indent:2%;
+	border:2px solid #fb9b03;
+}
+
+article{
+	font-family: 'Happy Monkey', cursive;
+	background-color:#fff001;
+	-moz-column-count:2;
+	padding:3%;
+	margin:2% 5% 2% 15%;
+	text-indent:2%;
+	border:2px solid #fb9b03;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/*----------------color swatch--------------------*/
+orange #fb9b03
+mid orange #fa9301
+Yellow #fff001
+yellow orange #ffcc01
+dark red #a01923
+mid yellow #fcd707
+mid yellow2 #e0af04
+
+/*---------------------------------------------------*/
