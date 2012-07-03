@@ -1,6 +1,9 @@
 body{
 	max-width:1200px;
-	/*background-image:url("../images/bottom.jpg")*/
+	background-image:url(../images/gradient_bolt.png);
+	background-repeat:repeat-x;
+	background-color:#000;
+	
 }
 
 /*--------------------------nav-----------------------*/
@@ -26,7 +29,7 @@ body{
 }
 
 #bolt{
-	width:15%;
+	max-width:15%;
 	margin-left:42.5%;
 	margin-top:0;
 	margin-bottom:0;
@@ -34,7 +37,7 @@ body{
 }
 
 .nav{
-	width:100%;
+	max-width:100%;
 	margin:0 auto;
 	list-style-type:none;
 	padding:0;
@@ -43,15 +46,15 @@ body{
 }
 
 .nav li{
-	width:15%;	
+	max-width:20%;	
 	background:#fff001;
 	border:1px solid #fa9301;
 	padding:0.5%;
-	margin-left:0.5%;	
+	margin-left:5%;	
 	float:left;
 }
 
-#one{
+.one{
 	text-decoration:none;
 	background:#fcd707;
 	display:block;
@@ -59,16 +62,22 @@ body{
 	line-height:20px;
 	text-align:center;
 }
-/*	
-.nav li{
-	background-color:#fff001;
-	border:1px solid #fa9301;
-	font-size:100%;
-	display:inline;
-	margin: 0 2% 5% 3%;
-	padding:0.5%;
+
+.one:hover{
+	border-color:#ff0101;
+	background:#fff001;
 }
-*/
+
+.one:active{
+	border-color:#fb9b03;
+	background:#ffcc01;
+}
+
+.one:visited{
+	border-color:#e0af04;
+}
+
+
 
 /*------------------------------nav--------------------------*/
 
@@ -83,7 +92,7 @@ body{
 
 .info{
 	font-family: 'Happy Monkey', cursive;
-	background-color:#fff001;
+	background-color: rgba(255,240,1,0.8);
 	-moz-column-count:2;
 	padding:3%;
 	margin:2% 5% 2% 15%;
@@ -92,6 +101,36 @@ body{
 }
 
 article{
+	max-width:100%;
+	font-family: 'Happy Monkey', cursive;
+	background-color:#fff001;
+	-moz-column-count:3;
+	padding:3%;
+	margin:2% 5% 2% 15%;
+	text-indent:2%;
+	border:2px solid #fb9b03;
+	clear:both;
+}
+
+#gallery{
+	max-width:100%;
+	font-family: 'Happy Monkey', cursive;
+	background-color:#fff001;
+	float:left;
+	padding:3%;
+	margin:2% 5% 2% 15%;
+	border:2px solid #fb9b03;
+}
+
+.pics li{
+	width:20%;
+	list-style-type:none;
+	float:left;
+	margin:2%;
+}
+	
+aside{
+	max-width:100%;
 	font-family: 'Happy Monkey', cursive;
 	background-color:#fff001;
 	-moz-column-count:2;
@@ -100,9 +139,370 @@ article{
 	text-indent:2%;
 	border:2px solid #fb9b03;
 }
+
+.fan{
+	max-width:300%;
+	border:2px solid #a01923;
+	padding:5%;
+	margin:50%;
+	overflow:hidden;
+	text-align:center;	
+}
+
+
+.fans{
+	max-width:80%;
+	border:2px solid #a01923;
+	padding:5%;
+	margin:9%;
+	text-align:center;	
+}
+
+#join{
+	font-family: 'Happy Monkey', cursive;
+}
+
+footer{
+	font-family: 'Happy Monkey', cursive;
+	background:#fff001;
+	border:2px solid #fb9b03;
+	padding:3%;
+	margin:2% 5% 2% 15%;
+}
+
+#end{
+	margin:0 auto;
+}
+
+ol li{
 	
+	background:#fa9301;
+	list-style-type:none;
+	display:inline;
+	padding:0.2%;
+	margin:4%;
+	text-decoration:none;
+	border:2px solid #a01923;
+}
+		
+/*-----------------------------images-----------------------*/
+
+/*----------------heroes----------------------*/
+
+.pics img{
+	background:#ff0101;
+	border:3px solid #a01923;
+	padding:0;
+	margin:0;
+	outline:0;
+}
+
+
+#face{
+	max-width:100%;
+	background:#ff0101;
+	border:3px solid #a01923;
+	padding:1% 1.3% 0.3% 0.4%;
+	margin:0;
+	outline:0;
+}
+
+.pics img{
+	max-width:100%
+}
+
+.pics img:hover{
+	border-color:#ff0101;
+	background:#fff001;
+}
+
+.pics img:active{
+	border-color:#fb9b03;
+	background:#ffcc01;
+}
+
+.pics img:visited{
+	border-color:#e0af04;
+}
+
+/*---------------heroes-------------------*/
+
+/*---------------villains-----------------*/
+
+
+#mur img{
+	width:90%;
+	background:#ff0101;
+	border:3px solid #a01923;
+	padding:0;
+	margin-left:5%;
+	outline:0;
+}
+
+#mur img{
+	max-width:100%
+}
+
+#mur img:hover{
+	border-color:#ff0101;
+	background:#fff001;
+}
+
+#mur img:active{
+	border-color:#fb9b03;
+	background:#ffcc01;
+}
+
+#mur img:visited{
+	border-color:#e0af04;
+}
+
+#heat img{
+	width:90%;
+	background:#ff0101;
+	border:3px solid #a01923;
+	padding:0;
+	margin-left:5%;
+	outline:0;
+}
+
+#heat img{
+	max-width:100%
+}
+
+#heat img:hover{
+	border-color:#ff0101;
+	background:#fff001;
+}
+
+#heat img:active{
+	border-color:#fb9b03;
+	background:#ffcc01;
+}
+
+#heat img:visited{
+	border-color:#e0af04;
+}
+
+#pot img{
+	width:70%;
+	background:#ff0101;
+	border:3px solid #a01923;
+	padding:0;
+	margin-left:5%;
+	outline:0;
+}
+
+#pot img{
+	max-width:100%
+}
+
+#pot img:hover{
+	border-color:#ff0101;
+	background:#fff001;
+}
+
+#pot img:active{
+	border-color:#fb9b03;
+	background:#ffcc01;
+}
+
+#pot img:visited{
+	border-color:#e0af04;
+}
+
+#cadabra img{
+	width:65%;
+	background:#ff0101;
+	border:3px solid #a01923;
+	padding:0;
+	margin-left:5%;
+	outline:0;
+}
+
+#cadabra img{
+	max-width:100%
+}
+
+#cadabra img:hover{
+	border-color:#ff0101;
+	background:#fff001;
+}
+
+#cadabra img:active{
+	border-color:#fb9b03;
+	background:#ffcc01;
+}
+
+#cadabra img:visited{
+	border-color:#e0af04;
+}
+
+#piper img{
+	width:70%;
+	background:#ff0101;
+	border:3px solid #a01923;
+	padding:0;
+	margin-left:5%;
+	outline:0;
+}
+
+#piper img{
+	max-width:100%
+}
+
+#piper img:hover{
+	border-color:#ff0101;
+	background:#fff001;
+}
+
+#piper img:active{
+	border-color:#fb9b03;
+	background:#ffcc01;
+}
+
+#piper img:visited{
+	border-color:#e0af04;
+}
+
+#cold img{
+	width:86.3%;
+	background:#ff0101;
+	border:3px solid #a01923;
+	padding:0;
+	margin-left:5%;
+	outline:0;
+}
+
+#cold img{
+	max-width:100%
+}
+
+#cold img:hover{
+	border-color:#ff0101;
+	background:#fff001;
+}
+
+#cold img:active{
+	border-color:#fb9b03;
+	background:#ffcc01;
+}
+
+#cold img:visited{
+	border-color:#e0af04;
+}
+
+#master img{
+	width:70%;
+	background:#ff0101;
+	border:3px solid #a01923;
+	padding:0;
+	margin-left:5%;
+	outline:0;
+}
+
+#master img{
+	max-width:100%
+}
+
+#master img:hover{
+	border-color:#ff0101;
+	background:#fff001;
+}
+
+#master img:active{
+	border-color:#fb9b03;
+	background:#ffcc01;
+}
+
+#master img:visited{
+	border-color:#e0af04;
+}
+
+#rival img{
+	width:80%;
+	background:#ff0101;
+	border:3px solid #a01923;
+	padding:0;
+	margin-left:5%;
+	outline:0;
+}
+
+#rival img{
+	max-width:100%
+}
+
+#rival img:hover{
+	border-color:#ff0101;
+	background:#fff001;
+}
+
+#rival img:active{
+	border-color:#fb9b03;
+	background:#ffcc01;
+}
+
+#rival img:visited{
+	border-color:#e0af04;
+}
+
+#grodd img{
+	width:77%;
+	background:#ff0101;
+	border:3px solid #a01923;
+	padding:0;
+	margin-left:5%;
+	outline:0;
+}
+
+#grodd img{
+	max-width:100%
+}
+
+#grodd img:hover{
+	border-color:#ff0101;
+	background:#fff001;
+}
+
+#grodd img:active{
+	border-color:#fb9b03;
+	background:#ffcc01;
+}
+
+#grodd img:visited{
+	border-color:#e0af04;
+}
+
+#wizard img{
+	width:54%;
+	background:#ff0101;
+	border:3px solid #a01923;
+	padding:0;
+	margin-left:5%;
+	outline:0;
+}
+
+#wizard img{
+	max-width:100%
+}
+
+#wizard img:hover{
+	border-color:#ff0101;
+	background:#fff001;
+}
+
+#wizard img:active{
+	border-color:#fb9b03;
+	background:#ffcc01;
+}
+
+#wizard img:visited{
+	border-color:#e0af04;
+}
+
+/*------------------villains------------------*/
 	
-	
+/*-----------------------------images-----------------------*/
 	
 	
 	
@@ -195,5 +595,6 @@ yellow orange #ffcc01
 dark red #a01923
 mid yellow #fcd707
 mid yellow2 #e0af04
+red #ff0101
 
 /*---------------------------------------------------*/
