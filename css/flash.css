@@ -1,8 +1,8 @@
 body{
 	max-width:1200px;
-	background-image:url(../images/gradient_bolt.png);
+	background-image:url(../images/bolte.png), url(../images/bolta.png);
+	background-position:top, bottom;
 	background-repeat:repeat-x;
-	background-color:#000;
 	
 }
 
@@ -45,30 +45,36 @@ body{
 	overflow:hidden;
 }
 
-.nav li{
-	max-width:20%;	
-	background:#fff001;
-	border:1px solid #fa9301;
-	padding:0.5%;
-	margin-left:5%;	
-	float:left;
-}
-
 .one{
-	text-decoration:none;
-	background:#fcd707;
+	background:#fff001;
+	background:-webkit-gradient(linear,left top, left bottom, from(#fff001), to(#fb9b03));
+	background:-moz-linear-gradient(top, #fff001, #fb9b03);
+	filter: progid:DXimageTransform.Microsoft.gradient(startColorstr='#fff001', endColorstr='#fb9b03');
 	display:block;
-	height:20%;
-	line-height:20px;
+	float:left;
+	outline:none;
+	cursor:pointer;
 	text-align:center;
+	text-decoration:none;
+	padding: .5em 2em .3em;
+	margin:0.5%;
+	text-shadow:2 2px 2px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow:0 1px 2px rgba(0,0,0,.2);
+	box-shadow:0 1px 2px rgba(0,0,0,.2);
 }
 
 .one:hover{
-	border-color:#ff0101;
+	border-color:#ffcc01;
 	background:#fff001;
+	text-decoration:none;
 }
 
 .one:active{
+	position:relative;
 	border-color:#fb9b03;
 	background:#ffcc01;
 }
@@ -76,6 +82,7 @@ body{
 .one:visited{
 	border-color:#e0af04;
 }
+
 
 
 
@@ -87,7 +94,7 @@ body{
 	font-family: 'Trade Winds', cursive;
 	margin-left:20%;
 	color:#fff001;
-	text-shadow:2px 2px 2px #5e051a;
+	text-shadow:2px 2px 2px #000;
 }
 
 .info{
@@ -175,6 +182,45 @@ footer{
 }
 
 ol li{
+	background:#fa9301;
+	background:-webkit-gradient(linear,left top, left bottom, from(#fff001), to(#fb9b03));
+	background:-moz-linear-gradient(top, #fff001, #fb9b03);
+	filter: progid:DXimageTransform.Microsoft.gradient(startColorstr='#fff001', endColorstr='#fb9b03');
+	display:block;
+	float:left;
+	outline:none;
+	cursor:pointer;
+	text-align:center;
+	text-decoration:none;
+	padding: .5em 2em .3em;
+	margin:0.5%;
+	text-shadow:2 2px 2px rgba(0,0,0,.3);
+	border:2px solid #a01923;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow:0 1px 2px rgba(0,0,0,.2);
+	box-shadow:0 1px 2px rgba(0,0,0,.2);
+}
+
+ol li:hover{
+	border-color:#ffcc01;
+	background:##fb9b03;
+	text-decoration:none;
+}
+
+ol li:active{
+	position:relative;
+	border-color:#fb9b03;
+	background:#ffcc01;
+}
+
+ol li:visited{
+	border-color:#e0af04;
+}
+/*
+ol li{
 	
 	background:#fa9301;
 	list-style-type:none;
@@ -184,6 +230,7 @@ ol li{
 	text-decoration:none;
 	border:2px solid #a01923;
 }
+*/
 		
 /*-----------------------------images-----------------------*/
 
