@@ -206,7 +206,7 @@ ol li{
 
 ol li:hover{
 	border-color:#ffcc01;
-	background:##fb9b03;
+	background:#fb9b03;
 	text-decoration:none;
 }
 
@@ -287,7 +287,7 @@ ol li{
 }
 
 #mur img{
-	max-width:100%
+	max-width:50%
 }
 
 #mur img:hover{
