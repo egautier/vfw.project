@@ -100,8 +100,8 @@ body{
 .info{
 	font-family: 'Happy Monkey', cursive;
 	background-color: rgba(255,240,1,0.8);
-	-moz-column-count:2;
 	-ms-column-count:2;
+	-moz-column-count:2;
 	-webkit-column-count:2;
 	-o-column-count:2;
 	-khtml-column-count:2;
@@ -115,8 +115,8 @@ article{
 	max-width:100%;
 	font-family: 'Happy Monkey', cursive;
 	background-color:#fff001;
-	-moz-column-count:3;
 	-ms-column-count:3;
+	-moz-column-count:3;
 	-webkit-column-count:3;
 	-o-column-count:3;
 	-khtml-column-count:3;
@@ -148,8 +148,8 @@ aside{
 	max-width:100%;
 	font-family: 'Happy Monkey', cursive;
 	background-color:#fff001;
-	-moz-column-count:2;
 	-ms-column-count:2;
+	-moz-column-count:2;
 	-webkit-column-count:2;
 	-o-column-count:2;
 	-khtml-column-count:2;
