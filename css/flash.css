@@ -112,6 +112,7 @@ body{
 	-webkit-column-count:2;
 	-o-column-count:2;
 	-khtml-column-count:2;
+	column-count:2;
 	padding:3%;
 	margin:2% 5% 2% 15%;
 	text-indent:2%;
@@ -127,6 +128,7 @@ article{
 	-webkit-column-count:3;
 	-o-column-count:3;
 	-khtml-column-count:3;
+	column-count:3;
 	padding:3%;
 	margin:2% 5% 2% 15%;
 	text-indent:2%;
