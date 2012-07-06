@@ -153,12 +153,7 @@ article{
 aside{
 	max-width:100%;
 	font-family: 'Happy Monkey', cursive;
-	background-color:#fff001;
-	-ms-column-count:2;
-	-moz-column-count:2;
-	-webkit-column-count:2;
-	-o-column-count:2;
-	-khtml-column-count:2;
+	background-color:#fff001;	
 	padding:3%;
 	margin:5% 5% 2% 15%;
 	text-indent:2%;
@@ -170,12 +165,10 @@ aside{
 	max-width:100%;
 	border:2px solid #a01923;
 	padding:5%;
-	margin:50%;
+	margin:10%;
 	overflow:hidden;
 	text-align:center;	
 }
-
-
 
 .fans{
 	max-width:80%;
@@ -187,13 +180,14 @@ aside{
 
 #join{
 	font-family: 'Happy Monkey', cursive;
+	margin-left:40%;
 }
 
 footer{
 	font-family: 'Happy Monkey', cursive;
 	background:#fff001;
 	border:2px solid #fb9b03;
-	padding:3%;
+	padding:6%;
 	margin:2% 5% 2% 15%;
 }
 
@@ -213,7 +207,7 @@ ol li{
 	text-align:center;
 	text-decoration:none;
 	padding: .5em 2em .3em;
-	margin:0.5%;
+	margin:1%;
 	text-shadow:2 2px 2px rgba(0,0,0,.3);
 	border:2px solid #a01923;
 	-ms-border-radius: .5em;
@@ -264,7 +258,7 @@ ol li:visited{
 	background:#ff0101;
 	border:3px solid #a01923;
 	padding:1% 1.3% 0.3% 0.4%;
-	margin:0;
+	margin:2% 5% 2% 25%;
 	outline:0;
 }
 
