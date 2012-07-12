@@ -549,87 +549,152 @@ ol li:visited{
 	
 /*-----------------------------images-----------------------*/
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+/* =Media Queries
+=======================================================================*/
+
+	/*Tablet Portrait size to standard 1200 (devices and browsers)*/
+	@media screen and (min-width:768px ) and ( max-width:1199px ){
+		
+		body{
+			background-image:url(../images/bolts.png);
+		}
+		
+		.top{
+			background-image:none;
+			background-color: rgba(24,14,160,0.8);
+			margin:5%;
+		}
+		
+		#top{
+			margin:0.5% 0 0 30%;
+		}
+		
+		.nav{
+			margin-left:5%;
+		}
+/*-------------------content-----------------*/
+
+		#about{
+			font-family: 'Trade Winds', cursive;
+			margin-left:15%;
+			color:#e0af04;
+			text-shadow:3px 3px 3px #000;
+ 		}		
+		.info{
+			max-width:100%;
+			font-family: 'Happy Monkey', cursive;
+			color:#fdfdfe;
+			background-color: rgba(24,14,160,0.8);
+			-ms-column-count:2;
+			-moz-column-count:2;
+			-webkit-column-count:2;
+			-o-column-count:2;
+			-khtml-column-count:2;
+			column-count:2;
+			padding:3%;
+			margin:2% 5% 2% 5%;
+			text-indent:2%;
+			text-shadow:2px 2px 2px #000;
+			border:2px solid #000;
+		}
+
+		article{
+			max-width:100%;
+			font-family: 'Happy Monkey', cursive;
+			color:#fdfdfe;
+			background-color: rgba(24,14,160,0.8);
+			-ms-column-count:2;
+			-moz-column-count:2;
+			-webkit-column-count:2;
+			-o-column-count:2;
+			-khtml-column-count:2;
+			column-count:2;
+			padding:3%;
+			margin:2% 5% 2% 5%;
+			text-indent:2%;
+			text-shadow:2px 2px 2px #000;
+			border:2px solid #000;
+			clear:both;
+		}
+
+		#gallery{
+			max-width:100%;
+			color:#fdfdfe;
+			font-family: 'Happy Monkey', cursive;
+			background-color: rgba(24,14,160,0.8);
+			float:left;
+			padding:3%;
+			text-shadow:2px 2px 2px #000;
+			margin:2% 5% 2% 5%;
+			border:2px solid #000;
+		}
+
+		aside{
+			max-width:100%;
+			font-family: 'Happy Monkey', cursive;
+			background-color: rgba(24,14,160,0.8);	
+			padding:3%;
+			margin:5% 5% 2% 5%;
+			text-indent:2%;
+			text-shadow:2px 2px 2px #000;
+			border:2px solid #000;
+		}
+		
+		#join{
+			color:#fdfdfe;
+		}
+
+		
+		.fan{
+			max-width:100%;
+			color:#fdfdfe;
+			border:2px solid #000;
+			padding:5%;
+			margin:10%;
+			overflow:hidden;
+			text-align:center;	
+		}
+
+		.fans{
+			max-width:80%;
+			color:#fdfdfe;
+			border:2px solid #000;
+			padding:5%;
+			margin:9%;
+			text-align:center;	
+		}
+		
+		footer{
+			font-family: 'Happy Monkey', cursive;
+			color:#fdfdfe;
+			background: rgba(24,14,160,0.8);
+			border:2px solid #000;
+			padding:6%;
+			margin:2% 5% 2% 5%;
+}
+		
+	
+			
+		
+/*----------------------------------------------*/
+	
+		
+	
+}
+
+	/*Mobile Landscape size to Tablet Portrait(devices and browsers)*/
+	@media only screen and (min-width:480px) and (max-width:767px){
+	
+}
+
+	/*Mobile Portrait size to Mobile Landscape size(devices ands browsers)*/
+	@media only screen and (max-width:479px){
+	
+}
+
+
+
 	
 	
 /*----------------color swatch--------------------*/
@@ -641,5 +706,7 @@ dark red #a01923
 mid yellow #fcd707
 mid yellow2 #e0af04
 red #ff0101
+wine #77170e
+blue #180ea0
 
 /*---------------------------------------------------*/
