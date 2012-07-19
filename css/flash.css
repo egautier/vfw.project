@@ -966,7 +966,7 @@ ol li:visited{
 			-o-box-shadow:0 1px 2px rgba(0,0,0,.2);
 			-khtml-box-shadow:0 1px 2px rgba(0,0,0,.2);
 			box-shadow:0 1px 2px rgba(0,0,0,.2);
-			color:#fff;
+			
 		}
 
 		ol li:hover{
@@ -988,7 +988,6 @@ ol li:visited{
 		#foot{
 			margin:5%;
 			padding:5% 15% 0.5% 10%;
-			float:clear;
 		}	
 	
 }
