@@ -945,6 +945,7 @@ ol li:visited{
 			filter: progid:DXimageTransform.Microsoft.gradient(startColorstr='#6d63f3', endColorstr='#0f077e');
 			font-family: 'Trade Winds', cursive;
 			display:block;
+			color:#fff;
 			float:left;
 			outline:none;
 			cursor:pointer;
@@ -995,6 +996,288 @@ ol li:visited{
 	/*Mobile Portrait size to Mobile Landscape size(devices ands browsers)*/
 	@media only screen and (max-width:479px){
 	
+		body{
+			background:#cd2012;
+		}
+		
+		.top{
+			background-image:none;
+			background-color:#fff001;
+			margin-left:5%;
+			border:3px solid #630e0c;
+		}
+		
+		#top{
+			max-width:30%;
+			padding:0;
+			font-size:300%;
+			color:#cd2012;
+			text-shadow:2px 2px 2px #100a65;
+			margin:0.5% 0 0 30%;
+		}
+		
+		#bolt{
+			display:none;
+		}
+		
+		.nav{
+			max-width:50%;
+			margin:2% auto;
+			list-style-type:none;
+			padding:0;
+			font-size:90%;
+			margin-left:30%;
+			overflow:hidden;
+		}
+		
+		.one{
+			max-width:75%;
+			background:#ff0101;
+			background:-webkit-gradient(linear,left top, left bottom, from(#ff0101), to(#0f077e));
+			background:-moz-linear-gradient(top, #ff0101, #0f077e);
+			filter: progid:DXimageTransform.Microsoft.gradient(startColorstr='#ff0101', endColorstr='#0f077e');
+			display:inline;
+			float:left;
+			outline:none;
+			cursor:pointer;
+			color:#fff;
+			text-align:center;
+			text-decoration:none;
+			padding:5%;
+			margin:0.5%;
+			text-shadow:2 2px 2px rgba(0,0,0,.3);
+			-ms-border-radius: .5em;
+			-moz-border-radius: .5em;
+			-webkit-border-radius: .5em;
+			-o-border-radius: .5em;
+			-khtml-border-radius: .5em;
+			border-radius: .5em;
+			-ms-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-moz-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-o-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-khtml-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			box-shadow:0 1px 2px rgba(0,0,0,.2);
+		}
+		
+		.one:hover{
+			border-color:#630e0c;
+			background:#630e0c;
+			text-decoration:none;
+		}
+
+		.one:active{
+			position:relative;
+			border-color:#07136f;
+			background:#07136f;
+		}
+
+		.one:visited{
+			border-color:#e0af04;
+		}
+		
+		.info{
+			max-width:100%;
+			font-family: 'Happy Monkey', cursive;
+			background:#fff001;
+			-ms-column-count:1;
+			-moz-column-count:1;
+			-webkit-column-count:1;
+			-o-column-count:1;
+			-khtml-column-count:1;
+			column-count:1;
+			padding:3%;
+			margin-left:10%;
+			border:3px solid #630e0c;
+			text-indent:2%;
+		}
+		
+		article{
+			max-width:100%;
+			font-family: 'Happy Monkey', cursive;
+			background:#fff001;
+			-ms-column-count:1;
+			-moz-column-count:1;
+			-webkit-column-count:1;
+			-o-column-count:1;
+			-khtml-column-count:1;
+			column-count:1;
+			padding:3%;
+			margin-left:10%;
+			text-indent:2%;
+			border:3px solid #630e0c;
+			clear:both;
+		}
+		
+		#gallery{
+			max-width:100%;
+			font-family: 'Happy Monkey', cursive;
+			background:#fff001;
+			float:left;
+			padding:3%;
+			margin-left:10%;
+			border:3px solid #630e0c;
+		}
+		
+		#mur img{
+			display:none;
+		}
+		
+		#heat img{
+			display:none;
+		}
+		
+		#pot img{
+			display:none;
+		}
+		
+		#cadabra img{
+			display:none;
+		}
+		
+		#piper img{
+			display:none;
+		}
+		
+		#cold img{
+			display:none;
+		}
+		
+		#master img{
+			display:none;
+		}
+		
+		#rival img{
+			display:none;
+		}
+		
+		#grodd img{
+			display:none;
+		}
+		
+		#wizard img{
+			display:none;
+		}
+		
+		aside{
+			max-width:100%;
+			font-family: 'Happy Monkey', cursive;
+			background:#fff001;	
+			padding:3%;
+			margin-left:10%;
+			text-indent:2%;
+			border:3px solid #630e0c;
+		}
+
+
+		.fan{
+			max-width:100%;
+			border:3px solid #630e0c;
+			padding:5%;
+			margin-left:10%;
+			overflow:hidden;
+			text-align:center;	
+		}
+		
+		.fan img{
+			display:none;
+		}
+
+		.fans{
+			max-width:80%;
+			border:3px solid #630e0c;
+			padding:5%;
+			margin-left:10%;
+			text-align:center;	
+		}
+		
+		.fans img{
+			display:none;
+		}
+		
+		#coment{
+			display:none;
+		}
+		
+		#join{
+			margin-left:28%;
+		}
+		
+		footer{
+			max-width:100%;
+			font-family: 'Happy Monkey', cursive;
+			background:#fff001;
+			border:3px solid #630e0c;
+			padding:3%;
+			margin-left:10%;
+		}
+
+		#end{
+			margin:5%;
+		}
+		
+		ol{
+			max-width:100%;
+			color:#fff;
+			list-style-type:none;
+			text-decoration:none;
+			overflow:hidden;
+			font-size:75%;
+		}
+
+		ol li{
+			max-width:75%;
+			background:#ff0101;
+			background:-webkit-gradient(linear,left top, left bottom, from(#ff0101), to(#0f077e));
+			background:-moz-linear-gradient(top, #ff0101, #0f077e);
+			filter: progid:DXimageTransform.Microsoft.gradient(startColorstr='#ff0101', endColorstr='#0f077e');
+			display:inline;
+			float:left;
+			outline:none;
+			cursor:pointer;
+			color:#fff;
+			text-align:center;
+			text-decoration:none;
+			padding:3%;
+			margin:0.5%;
+			text-shadow:2 2px 2px rgba(0,0,0,.3);
+			-ms-border-radius: .5em;
+			-moz-border-radius: .5em;
+			-webkit-border-radius: .5em;
+			-o-border-radius: .5em;
+			-khtml-border-radius: .5em;
+			border-radius: .5em;
+			-ms-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-moz-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-o-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-khtml-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			box-shadow:0 1px 2px rgba(0,0,0,.2);
+		}
+		
+		ol li:hover{
+			border-color:#630e0c;
+			background:#630e0c;
+			text-decoration:none;
+		}
+
+		ol li:active{
+			position:relative;
+			border-color:#07136f;
+			background:#07136f;
+		}
+
+		ol li:visited{
+			border-color:#e0af04;
+		}
+		
+		#foot{
+			margin:5%;
+			padding:5% 15% 0.5% 10%;
+		}
+		
+		
+	
 }
 
 
@@ -1010,6 +1293,7 @@ dark red #a01923
 mid yellow #fcd707
 mid yellow2 #e0af04
 red #ff0101
+red2 #cd2012
 wine #77170e
 blue #180ea0
 dark blue #100a65
@@ -1017,4 +1301,5 @@ light purple #6d63f3
 dark blue2 #0f077e
 dark gray yellow #9a7c02
 navy blue #07136f
+wine 2 #630e0c
 /*---------------------------------------------------*/
