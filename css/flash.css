@@ -48,6 +48,8 @@ body{
 	background:#fff001;
 	background:-webkit-gradient(linear,left top, left bottom, from(#fff001), to(#fb9b03));
 	background:-moz-linear-gradient(top, #fff001, #fb9b03);
+	background:-o-gradient(linear,left top, left bottom, from(#fff001), to(#fb9b03));
+	background:-o-linear-gradient(top, #fff001, #fb9b03);
 	filter: progid:DXimageTransform.Microsoft.gradient(startColorstr='#fff001', endColorstr='#fb9b03');
 	display:block;
 	float:left;
@@ -201,6 +203,8 @@ ol li{
 	background:#fa9301;
 	background:-webkit-gradient(linear,left top, left bottom, from(#fff001), to(#fb9b03));
 	background:-moz-linear-gradient(top, #fff001, #fb9b03);
+	background:-o-gradient(linear,left top, left bottom, from(#fff001), to(#fb9b03));
+	background:-o-linear-gradient(top, #fff001, #fb9b03);
 	filter: progid:DXimageTransform.Microsoft.gradient(startColorstr='#fff001', endColorstr='#fb9b03');
 	display:block;
 	float:left;
@@ -724,6 +728,8 @@ ol li:visited{
 			background:#6d63f3;
 			background:-webkit-gradient(linear,left top, left bottom, from(#6d63f3), to(#0f077e));
 			background:-moz-linear-gradient(top, #6d63f3, #0f077e);
+			background:-o-gradient(linear,left top, left bottom, from(#6d63f3), to(#0f077e));
+			background:-o-linear-gradient(top, #6d63f3, #0f077e);
 			filter: progid:DXimageTransform.Microsoft.gradient(startColorstr='#6d63f3', endColorstr='#0f077e');
 			display:block;
 			float:left;
@@ -942,6 +948,8 @@ ol li:visited{
 			background:#6d63f3;
 			background:-webkit-gradient(linear,left top, left bottom, from(#6d63f3), to(#0f077e));
 			background:-moz-linear-gradient(top, #6d63f3, #0f077e);
+			background:-o-gradient(linear,left top, left bottom, from(#6d63f3), to(#0f077e));
+			background:-o-linear-gradient(top, #6d63f3, #0f077e);
 			filter: progid:DXimageTransform.Microsoft.gradient(startColorstr='#6d63f3', endColorstr='#0f077e');
 			font-family: 'Trade Winds', cursive;
 			display:block;
@@ -1035,6 +1043,8 @@ ol li:visited{
 			background:#ff0101;
 			background:-webkit-gradient(linear,left top, left bottom, from(#ff0101), to(#0f077e));
 			background:-moz-linear-gradient(top, #ff0101, #0f077e);
+			background:-o-gradient(linear,left top, left bottom, from(#ff0101), to(#0f077e));
+			background:-o-linear-gradient(top, #ff0101, #0f077e);
 			filter: progid:DXimageTransform.Microsoft.gradient(startColorstr='#ff0101', endColorstr='#0f077e');
 			display:inline;
 			float:left;
@@ -1230,6 +1240,8 @@ ol li:visited{
 			background:#ff0101;
 			background:-webkit-gradient(linear,left top, left bottom, from(#ff0101), to(#0f077e));
 			background:-moz-linear-gradient(top, #ff0101, #0f077e);
+			background:-o-gradient(linear,left top, left bottom, from(#ff0101), to(#0f077e));
+			background:-o-linear-gradient(top, #ff0101, #0f077e);
 			filter: progid:DXimageTransform.Microsoft.gradient(startColorstr='#ff0101', endColorstr='#0f077e');
 			display:inline;
 			float:left;
