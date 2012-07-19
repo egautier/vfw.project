@@ -11,7 +11,6 @@ body{
 .top{
 	font-family: 'Trade Winds', cursive;
 	max-width:100%;
-	background:#fcd601;
 	background-image:url("../images/run.png");
 	margin-left:10%;
 	border:2px solid #5e051a;
@@ -573,6 +572,10 @@ ol li:visited{
 		.nav{
 			margin-left:5%;
 		}
+		
+		#bolt{
+			display:none;
+		}
 /*-------------------content-----------------*/
 
 		#about{
@@ -672,19 +675,321 @@ ol li:visited{
 			border:2px solid #000;
 			padding:6%;
 			margin:2% 5% 2% 5%;
-}
+		}
 		
 	
 			
 		
-/*----------------------------------------------*/
-	
-		
-	
 }
 
 	/*Mobile Landscape size to Tablet Portrait(devices and browsers)*/
 	@media only screen and (min-width:480px) and (max-width:767px){
+	
+		body{
+			background-image:url(../images/blue_bolts.png);
+		}
+		
+		.top{
+			background-image:none;
+			background-color: rgba(253,253,255,0.8);
+			margin:5%;
+			border:5px solid #100a65;
+		}
+		
+		#top{
+			max-width:30%;
+			padding:0;
+			font-size:300%;
+			color:#fff001;
+			/*text-align:center;*/
+			text-shadow:2px 2px 2px #07136f;
+			/*margin:0.5% 0 0 35%;*/
+		}
+		
+		#bolt{
+			display:none;
+		}
+		
+		.nav{
+			max-width:50%;
+			margin:2% auto;
+			list-style-type:none;
+			padding:0;
+			margin-left:30%;
+			overflow:hidden;
+		}
+		
+		.one{
+			max-width:75%;
+			background:#6d63f3;
+			background:-webkit-gradient(linear,left top, left bottom, from(#6d63f3), to(#0f077e));
+			background:-moz-linear-gradient(top, #6d63f3, #0f077e);
+			filter: progid:DXimageTransform.Microsoft.gradient(startColorstr='#6d63f3', endColorstr='#0f077e');
+			display:block;
+			float:left;
+			outline:none;
+			cursor:pointer;
+			color:#fff;
+			text-align:center;
+			text-decoration:none;
+			padding: .5em 2em .3em;
+			margin:0.5%;
+			text-shadow:2 2px 2px rgba(0,0,0,.3);
+			-ms-border-radius: .5em;
+			-moz-border-radius: .5em;
+			-webkit-border-radius: .5em;
+			-o-border-radius: .5em;
+			-khtml-border-radius: .5em;
+			border-radius: .5em;
+			-ms-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-moz-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-o-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-khtml-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			box-shadow:0 1px 2px rgba(0,0,0,.2);
+		}
+		
+		.one:hover{
+			border-color:#9a7c02;
+			background:#9a7c02;
+			text-decoration:none;
+		}
+
+		.one:active{
+			position:relative;
+			border-color:#07136f;
+			background:#07136f;
+		}
+
+		.one:visited{
+			border-color:#e0af04;
+		}
+		
+		#about{
+			margin-left:25%;
+		}
+		
+		.info{
+			max-width:100%;
+			font-family: 'Happy Monkey', cursive;
+			background-color: rgba(253,253,255,0.8);
+			-ms-column-count:1;
+			-moz-column-count:1;
+			-webkit-column-count:1;
+			-o-column-count:1;
+			-khtml-column-count:1;
+			column-count:1;
+			padding:3%;
+			margin:5%;
+			border:5px solid #100a65;
+			text-indent:2%;
+		}
+		
+		article{
+			max-width:100%;
+			font-family: 'Happy Monkey', cursive;
+			background-color: rgba(253,253,255,0.8);
+			-ms-column-count:1;
+			-moz-column-count:1;
+			-webkit-column-count:1;
+			-o-column-count:1;
+			-khtml-column-count:1;
+			column-count:1;
+			padding:3%;
+			margin:5%;
+			text-indent:2%;
+			border:5px solid #100a65;
+			clear:both;
+		}
+
+/*===============heroes======================*/
+	
+		#gallery{
+			max-width:100%;
+			font-family: 'Happy Monkey', cursive;
+			background-color: rgba(253,253,255,0.8);
+			float:left;
+			padding:3%;
+			margin:5%;
+			border:5px solid #100a65;
+		}
+		
+		.pics img{
+			max-width:100%;
+			background:#07136f;
+			border:3px solid #100a65;
+			padding:0;
+			margin:0;
+			outline:0;
+		}
+
+		.pics img:hover{
+			border-color:#ff0101;
+			background:#fff001;
+		}	
+
+		.pics img:active{
+			border-color:#fb9b03;
+			background:#ffcc01;
+		}
+
+		.pics img:visited{
+			border-color:#e0af04;
+		}	
+
+/*================================================*/		
+
+/*===================villains====================*/
+
+		#mur img{
+			display:none;
+		}
+		
+		#heat img{
+			display:none;
+		}
+		
+		#pot img{
+			display:none;
+		}
+		
+		#cadabra img{
+			display:none;
+		}
+		
+		#piper img{
+			display:none;
+		}
+		
+		#cold img{
+			display:none;
+		}
+		
+		#master img{
+			display:none;
+		}
+		
+		#rival img{
+			display:none;
+		}
+		
+		#grodd img{
+			display:none;
+		}
+		
+		#wizard img{
+			display:none;
+		}
+		
+/*===========================================*/
+		
+		
+		aside{
+			max-width:100%;
+			font-family: 'Happy Monkey', cursive;
+			background-color: rgba(253,253,255,0.8);	
+			padding:3%;
+			margin:5%;
+			text-indent:2%;
+			border:5px solid #100a65;
+		}
+
+
+		.fan{
+			max-width:100%;
+			border:2px solid #100a65;
+			padding:5%;
+			margin:7%;
+			overflow:hidden;
+			text-align:center;	
+		}
+
+		.fans{
+			max-width:80%;
+			border:2px solid #100a65;
+			padding:5%;
+			margin:7%;
+			text-align:center;	
+		}
+		
+		#join{
+			margin-left:30%;
+		}
+		
+		footer{
+			max-width:100%;
+			font-family: 'Happy Monkey', cursive;
+			background: rgba(253,253,255,0.8);
+			border:5px solid #100a65;
+			padding:3%;
+			margin:5%;
+		}
+
+		#end{
+			margin:5%;
+		}
+		
+		ol{
+			max-width:100%;
+			color:#000;
+			list-style-type:none;
+			text-decoration:none;
+			overflow:hidden;
+		}
+
+		ol li{
+			max-width:75%;
+			background:#6d63f3;
+			background:-webkit-gradient(linear,left top, left bottom, from(#6d63f3), to(#0f077e));
+			background:-moz-linear-gradient(top, #6d63f3, #0f077e);
+			filter: progid:DXimageTransform.Microsoft.gradient(startColorstr='#6d63f3', endColorstr='#0f077e');
+			font-family: 'Trade Winds', cursive;
+			display:block;
+			float:left;
+			outline:none;
+			cursor:pointer;
+			text-align:center;
+			text-decoration:none;
+			padding: .5em 2em .3em;
+			margin-left:25%;
+			text-shadow:2 2px 2px rgba(0,0,0,.3);
+			border:2px solid #0f077e;
+			-ms-border-radius: .5em;
+			-moz-border-radius: .5em;
+			-webkit-border-radius: .5em;
+			-o-border-radius: .5em;
+			-khtml-border-radius: .5em;
+			border-radius: .5em;
+			-ms-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-moz-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-o-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			-khtml-box-shadow:0 1px 2px rgba(0,0,0,.2);
+			box-shadow:0 1px 2px rgba(0,0,0,.2);
+			color:#fff;
+		}
+
+		ol li:hover{
+			border-color:#9a7c02;
+			background:#9a7c02;
+			text-decoration:none;
+		}
+
+		ol li:active{
+			position:relative;
+			border-color:#07136f;
+			background:#07136f;
+		}
+
+		ol li:visited{
+			border-color:#e0af04;
+		}
+		
+		#foot{
+			margin:5%;
+			padding:5% 15% 0.5% 10%;
+			float:clear;
+		}	
 	
 }
 
@@ -698,7 +1003,7 @@ ol li:visited{
 	
 	
 /*----------------color swatch--------------------*/
-orange #fb9b03
+orange #fb9b03file:///Users/eliasgautier/vfw.project/Gautier_Elias/terms.html
 mid orange #fa9301
 Yellow #fff001
 yellow orange #ffcc01
@@ -708,5 +1013,9 @@ mid yellow2 #e0af04
 red #ff0101
 wine #77170e
 blue #180ea0
-
+dark blue #100a65
+light purple #6d63f3
+dark blue2 #0f077e
+dark gray yellow #9a7c02
+navy blue #07136f
 /*---------------------------------------------------*/
