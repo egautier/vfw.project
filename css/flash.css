@@ -120,8 +120,8 @@ body{
 }
 
 #list{
-	max-width:150%;
-	margin-left:60%;
+	width:200%;
+	margin-left:30%;
 	border:2px solid #a01923;
 	padding:0 25%;
 }
